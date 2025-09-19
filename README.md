@@ -1,5 +1,5 @@
 # 💰 CashOff
-[![Next.js](https://img.shields.io/badge/Next.js-13.5.1-black?logo=next.js)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-18.3.0-blue?logo=react)](https://react.dev/) [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.5.0-teal?logo=tailwind-css)](https://tailwindcss.com/) [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/Andromeda067/cashoff?style=social)](https://github.com/seu-usuario/cashoff/stargazers)
+[![Next.js](https://img.shields.io/badge/Next.js-13.5.1-black?logo=next.js)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-18.3.0-blue?logo=react)](https://react.dev/) [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.5.0-teal?logo=tailwind-css)](https://tailwindcss.com/) [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/Andromeda067/CashOff)](https://github.com/seu-usuario/cashoff/stargazers)
 
 
 CashOff é uma plataforma de gestão financeira que permite controlar **lucros** e **despesas** de forma prática e eficiente. Construído com **Next.js**, **React** e **Tailwind CSS**, o projeto segue uma arquitetura **MVC** para melhor organização do código e escalabilidade 🚀.
