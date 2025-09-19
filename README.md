@@ -1,95 +1,138 @@
 # 💰 CashOff
-[![Next.js](https://img.shields.io/badge/Next.js-13.5.1-black?logo=next.js)](https://nextjs.org/) [![React](https://img.shields.io/badge/React-18.3.0-blue?logo=react)](https://react.dev/) [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.5.0-teal?logo=tailwind-css)](https://tailwindcss.com/) [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/Andromeda067/CashOff)](https://github.com/seu-usuario/cashoff/stargazers)
 
+[![Next.js](https://img.shields.io/badge/Next.js-13.5.1-black?logo=next.js)](https://nextjs.org/docs) 
+[![React](https://img.shields.io/badge/React-18.3.0-blue?logo=react)](https://react.dev/) 
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.5.0-teal?logo=tailwind-css)](https://tailwindcss.com/docs) 
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) 
+[![GitHub stars](https://img.shields.io/github/stars/seu-usuario/cashoff)](https://github.com/seu-usuario/cashoff/stargazers)
 
-CashOff é uma plataforma de gestão financeira que permite controlar **lucros** e **despesas** de forma prática e eficiente. Construído com **Next.js**, **React** e **Tailwind CSS**, o projeto segue uma arquitetura **MVC** para melhor organização do código e escalabilidade 🚀.
+---
+
+## 📌 Sobre o Projeto
+
+**CashOff** é uma plataforma de **gestão financeira** desenvolvida para auxiliar no controle de **lucros** e **despesas** de maneira simples, prática e eficiente.  
+Construído com **Next.js**, **React** e **Tailwind CSS**, o projeto adota uma arquitetura **MVC** visando **organização, escalabilidade e manutenção** do código 🚀.
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-- ⚛️ [Next.js](https://nextjs.org/) (React Framework)
-- ⚛️ [React](https://reactjs.org)
-- 🎨 [Tailwind CSS](https://tailwindcss.com/)
-- 🟢 Node.js (v18+ recomendado)
-- 📦 npm ou yarn
+- ⚛️ [Next.js](https://nextjs.org/docs) – Framework React para produção
+- ⚛️ [React](https://react.dev/) – Biblioteca para interfaces dinâmicas
+- 🎨 [Tailwind CSS](https://tailwindcss.com/docs) – Estilização utilitária
+- 🟢 [Node.js](https://nodejs.org/) – Ambiente de execução (LTS recomendado)
+- 📦 npm ou yarn – Gerenciadores de pacotes
 
 ---
 
-## 📁 Estrutura de Pastas Inicial (MVC)
+## 📁 Estrutura de Pastas (MVC)
 
-### cashoff/
-### │
-### ├── app/ # Lógica do Next.js (rotas, pages) 
-### │ ├── controllers/ # Controladores (Controllers) 🕹
-### │ ├── models/ # Modelos de dados (Models) 📊
-### │ ├── views/ # Componentes e Views (Views) 🎨
-### │ └── services/ # Serviços auxiliares e APIs 🔧
-### │
-### ├── public/ # Arquivos estáticos (imagens, ícones) 🖼
-### ├── styles/ # Arquivos CSS e Tailwind 🎨
-### ├── node_modules/ # Dependências do projeto 📦
-### ├── .gitignore # Ignora node_modules, .next, etc. 🚫
-### ├── package.json # Configuração do projeto e scripts 📜
-### └── README.md # Este arquivo 📖
+```bash
+cashoff/
+│
+├── app/               # Núcleo do Next.js (rotas, páginas)
+│   ├── controllers/   # Controladores (Controllers) 🕹
+│   ├── models/        # Modelos de dados (Models) 📊
+│   ├── views/         # Interfaces e componentes visuais (Views) 🎨
+│   └── services/      # Serviços auxiliares e APIs 🔧
+│
+├── public/            # Arquivos estáticos (imagens, ícones) 🖼
+├── styles/            # Configurações CSS e Tailwind 🎨
+├── node_modules/      # Dependências do projeto 📦
+├── .gitignore         # Ignora node_modules, .next, etc. 🚫
+├── package.json       # Configuração do projeto e scripts 📜
+└── README.md          # Documentação 📖
 
 
-> Inicialmente, o projeto seguirá o padrão **MVC**, mas como o Next.js tem o conceito de **pages e components**, a pasta `views` será usada para componentes visuais e páginas principais ✨.
-
+```
+### 🔑 A estrutura segue o padrão MVC, mas aproveita o conceito de pages e components do Next.js. A pasta views abriga os componentes visuais reutilizáveis e as páginas principais ✨.
 ---
-
 ## ✅ Pré-requisitos
 
-Certifique-se de ter instalado em sua máquina:
+Antes de começar, certifique-se de ter instalado em sua máquina:
 
-- 🟢 [Node.js](https://nodejs.org/) (versão LTS recomendada)
-- 📦 npm ou yarn
-- 🐙 Git (opcional, se for clonar o projeto)
+🟢 Node.js (versão LTS)
 
+📦 npm (já incluso no Node.js) ou Yarn
+
+🐙 Git
+ (opcional, se for clonar o repositório)
 ---
 
-## 🚀 Instalação
+## 🚀 Instalação e Uso
+Abra o terminal e execute os seguintes comandos:
 
-Abra o terminal e siga os passos abaixo:
-
-1. Clone o repositório:
 ```bash
+
+# Clone o repositório
 git clone https://github.com/seu-usuario/cashoff.git
 
+# Acesse a pasta do projeto
 cd cashoff
 
+# Instale as dependências
 npm install
-# ou, se preferir yarn
+# ou
 yarn install
 
-
-##🏃 Scripts Úteis
-
+# Inicie o servidor de desenvolvimento
 npm run dev
 # ou
 yarn dev
 ```
+A aplicação estará disponível em:
+👉 http://localhost:3000
 
-## 💡 Boas práticas
+---
 
-Mantenha o padrão MVC para organizar funcionalidades 🗂
+## 🏃 Scripts Disponíveis
 
-Utilize componentes reutilizáveis no views/components ♻️
+npm run dev → Inicia o servidor de desenvolvimento 🔥
 
-Separe lógica de negócio nos controllers e manipulação de dados nos models 🧩
+npm run build → Gera a versão de produção ⚡
 
-Use Tailwind CSS para estilização rápida e responsiva 🎨
+npm start → Executa a aplicação em produção 🚀
+`
+---
 
-## 🤝 Contribuição
+## 💡 Boas Práticas
 
-Contribuições são bem-vindas!
+🗂 Mantenha a estrutura MVC para maior organização
 
-Fork este repositório 🍴
+♻️ Reutilize componentes dentro da pasta views
 
-Crie uma branch para sua feature (git checkout -b feature/nova-feature) 🌿
+🧩 Concentre a lógica de negócio em controllers e dados em models
 
-Commit suas alterações (git commit -m 'Adiciona nova feature') 📝
+🎨 Utilize o Tailwind para estilização responsiva e rápida
+---
 
-Push para a branch (git push origin feature/nova-feature) 🚀
 
-Abra um Pull Request 💌
+## 📚 Documentações Úteis
+
+📖 Documentação Next.js
+
+📖 Documentação React
+
+📖 Documentação Tailwind CSS
+
+📖 Download Node.js (LTS recomendado)
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas! Para colaborar:
+
+Faça um fork do repositório 🍴
+
+Crie uma branch para sua feature:
+
+```bash
+git checkout -b feature/nova-feature
+
+git commit -m "Adiciona nova feature"
+
+git push origin feature/nova-feature
+
+
+``
