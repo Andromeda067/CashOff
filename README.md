@@ -18,20 +18,20 @@ CashOff é uma plataforma de gestão financeira que permite controlar **lucros**
 
 ## 📁 Estrutura de Pastas Inicial (MVC)
 
-cashoff/
-│
-├── app/ # Lógica do Next.js (rotas, pages)
-│ ├── controllers/ # Controladores (Controllers) 🕹
-│ ├── models/ # Modelos de dados (Models) 📊
-│ ├── views/ # Componentes e Views (Views) 🎨
-│ └── services/ # Serviços auxiliares e APIs 🔧
-│
-├── public/ # Arquivos estáticos (imagens, ícones) 🖼
-├── styles/ # Arquivos CSS e Tailwind 🎨
-├── node_modules/ # Dependências do projeto 📦
-├── .gitignore # Ignora node_modules, .next, etc. 🚫
-├── package.json # Configuração do projeto e scripts 📜
-└── README.md # Este arquivo 📖
+### cashoff/
+###  │
+### ├── app/ # Lógica do Next.js (rotas, pages) 
+### │ ├── controllers/ # Controladores (Controllers) 🕹
+### │ ├── models/ # Modelos de dados (Models) 📊
+### │ ├── views/ # Componentes e Views (Views) 🎨
+### │ └── services/ # Serviços auxiliares e APIs 🔧
+### │
+### ├── public/ # Arquivos estáticos (imagens, ícones) 🖼
+### ├── styles/ # Arquivos CSS e Tailwind 🎨
+### ├── node_modules/ # Dependências do projeto 📦
+### ├── .gitignore # Ignora node_modules, .next, etc. 🚫
+### ├── package.json # Configuração do projeto e scripts 📜
+### └── README.md # Este arquivo 📖
 
 
 > Inicialmente, o projeto seguirá o padrão **MVC**, mas como o Next.js tem o conceito de **pages e components**, a pasta `views` será usada para componentes visuais e páginas principais ✨.
