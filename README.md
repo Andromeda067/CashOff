@@ -109,13 +109,13 @@ npm start → Executa a aplicação em produção 🚀
 
 ## 📚 Documentações Úteis
 
-📖 Documentação Next.js
+📖 [Documentação Next.js](https://nextjs.org/docs)
 
-📖 Documentação React
+📖 [Documentação React](https://react.dev/learn)
 
-📖 Documentação Tailwind CSS
+📖 [Documentação Tailwind CSS](https://tailwindcss.com/docs/installation/using-vite)
 
-📖 Download Node.js (LTS recomendado)
+📖 [Download Node.js (LTS recomendado)](https://nodejs.org/en/download)
 
 ---
 
