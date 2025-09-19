@@ -4,8 +4,7 @@
 [![React](https://img.shields.io/badge/React-18.3.0-blue?logo=react)](https://react.dev/) 
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.5.0-teal?logo=tailwind-css)](https://tailwindcss.com/docs) 
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) 
-[![GitHub stars](https://img.shields.io/github/stars/seu-usuario/cashoff)](https://github.com/Andromeda067/cashoff/stargazers)
-
+[![GitHub stars](https://img.shields.io/github/stars/Andromeda067/CashOff)](https://github.com/seu-usuario/cashoff/stargazers)
 ---
 
 ## 📌 Sobre o Projeto
