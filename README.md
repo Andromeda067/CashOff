@@ -19,7 +19,7 @@ CashOff é uma plataforma de gestão financeira que permite controlar **lucros**
 ## 📁 Estrutura de Pastas Inicial (MVC)
 
 ### cashoff/
-###  │
+### │
 ### ├── app/ # Lógica do Next.js (rotas, pages) 
 ### │ ├── controllers/ # Controladores (Controllers) 🕹
 ### │ ├── models/ # Modelos de dados (Models) 📊
